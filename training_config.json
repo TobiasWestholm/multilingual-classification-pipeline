@@ -1,0 +1,25 @@
+{
+  // The name of the classification task (e.g. policy_classification)
+  "task_name": "generic_task",
+
+  // The type of classification. Supported: "multilabel" or "multiclass"
+  "task_type": "multilabel",
+
+  // The template/prompt name configuration key used when retrieving/logging to Langfuse (leave empty to bypass Langfuse upload)
+  "prompt_name": "",
+
+  // The name of the dataset to pull/log in Langfuse (leave empty to fallback to local training)
+  "dataset_name": "",
+
+  // The name of the human evaluation test dataset to pull from Langfuse (leave empty to skip human evaluation post-HPO)
+  "testset_name": "",
+
+  // The label name assigned when predicting abstention/unknown class
+  "abstention_label": "abstain",
+
+  // The directory containing raw documents for embedding and ingestion
+  "raw_documents_dir": "data_preparation/training_documents",
+
+  // The transformer backbone model name used for embedding extraction and fine-tuning
+  "backbone_model_name": "jhu-clsp/mmBERT-base"
+}

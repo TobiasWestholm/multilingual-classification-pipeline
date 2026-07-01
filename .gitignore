@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+outputs/
+data_preparation/train_test_document_embeddings.npy
+data_preparation/document_metadata.json
+training/document_train_test_split.csv
+training/mock_dataset_cache.json
+data_preparation/training_documents/

@@ -1,0 +1,30 @@
+# Repo-wide requirements (training, HPO, evaluation, data prep, analysis)
+
+# Core numerical/data stack
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# ML / DL
+torch>=2.0.0
+transformers>=4.30.0
+peft>=0.12.0
+scikit-learn>=1.3.0
+iterative-stratification>=0.1.7
+
+# Dataset + API integrations
+langfuse>=2.0.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Data preparation / document processing
+PyMuPDF>=1.24.0
+langid>=1.1.6
+
+# Clustering / manifold learning
+umap-learn>=0.5.5
+hdbscan>=0.8.33
+
+# Monitoring / diagnostics / plotting
+psutil>=5.9.0
+matplotlib>=3.8.0

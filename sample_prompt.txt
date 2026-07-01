@@ -1,0 +1,38 @@
+You are an expert document classifier. Your task is to analyze the provided text and classify it into one or more of the following three categories.
+
+### Classification Categories:
+
+1. **financial_disclosure**:
+   * *Description*: Documents containing details of financial performance, revenues, expenses, balance sheets, funding activities, investments, or general business metrics.
+   * *Examples*: Annual reports, investor updates, expense trackers, profit and loss statements.
+
+2. **legal_and_compliance**:
+   * *Description*: Documents regarding legal agreements, contracts, compliance guidelines, regulatory policies, terms of service, audits, or litigation proceedings.
+   * *Examples*: Service agreements, data protection guidelines, audit reports, liability waivers.
+
+3. **operational_update**:
+   * *Description*: Documents describing internal business updates, logistical announcements, team restructurings, project timelines, or general administrative procedures.
+   * *Examples*: Office reopening plans, logistical status updates, department restructurings.
+
+---
+
+### Output Format Instructions:
+You must output your classification results in a valid JSON object following the format below. 
+
+* **Abstention Constraint**: If the document does not belong to any of the three categories, return an empty list under the `results` key.
+
+#### Format Schema:
+```json
+{
+  "results": [
+    {
+      "category": "category_name_here"
+    }
+  ]
+}
+```
+
+---
+
+### Document Text to Classify:
+{{text}}
