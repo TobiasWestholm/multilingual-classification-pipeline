@@ -1,8 +1,8 @@
 # Multilingual Classification & HPO Pipeline
 
-An production-ready, automated machine learning pipeline for training, optimizing, and evaluating transformer-based classification models on multilingual text documents. 
+A production-ready, automated machine learning pipeline for training, optimizing, and evaluating transformer-based classification models on multilingual text documents. 
 
-This repository highlights a robust ML engineering workflow—spanning unsupervised document clustering, dataset generation, hyperparameter optimization (HPO) grids, Parameter-Efficient Fine-Tuning (PEFT/LoRA), and model serving.
+Includes unsupervised document clustering, dataset generation, hyperparameter optimization (HPO) grids, Parameter-Efficient Fine-Tuning (PEFT/LoRA), and model serving.
 
 ---
 
